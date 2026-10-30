@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>손지현 — Design &amp; Technology Portfolio</title>
+<meta name="description" content="VMD, Space Identity, Spatial Design을 공부하는 손지현의 1페이지 포트폴리오.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<!-- 12 column grid overlay (decorative) -->
+<div class="grid-overlay" aria-hidden="true">
+  <div class="grid-overlay__inner">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+</div>
+
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a class="brand" href="#hero" aria-label="맨 위로">
+    <span class="brand__mark">SJ</span>
+    <span class="brand__name">SON JIHYUN</span>
+  </a>
+
+  <nav class="nav" aria-label="섹션 이동">
+    <a href="#about" data-nav="about">About</a>
+    <a href="#focus" data-nav="focus">Focus</a>
+    <a href="#projects" data-nav="projects">Work</a>
+    <a href="#process" data-nav="process">Process</a>
+    <a href="#archive" data-nav="archive">Archive</a>
+    <a href="#contact" data-nav="contact">Contact</a>
+  </nav>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+</header>
+
+<main>
+
+  <!-- ============ 01 HERO ============ -->
+  <section id="hero" class="hero">
+    <div class="wrap hero__inner">
+
+      <div class="hero__meta reveal">
+        <span class="mono">PORTFOLIO / 2026</span>
+        <span class="mono">DESIGN &amp; TECHNOLOGY</span>
+        <span class="mono">SEOUL, KR · 37.56°N 126.97°E</span>
+      </div>
+
+      <div class="hero__head">
+        <!-- EDIT: 이름 -->
+        <h1 class="hero__title reveal">
+          <span class="hero__kr">손지현</span>
+          <span class="hero__en">SON JIHYUN</span>
+        </h1>
+
+        <!-- EDIT: 깃허브 주소 -->
+        <div class="hero__actions reveal">
+          <a class="btn-github" href="https://github.com/sonjihyunn/AIPython" target="_blank" rel="noopener">
+            <svg class="btn-github__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+            </svg>
+            <span class="btn-github__label">GITHUB</span>
+            <span class="btn-github__arrow">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__foot">
+        <!-- EDIT: 한 줄 소개 -->
+        <p class="hero__tagline reveal">
+          공간의 흐름을 읽고,<br>
+          인상을 구조로 설계합니다.
+        </p>
+        <p class="hero__tagline-en mono reveal">
+          I READ HOW PEOPLE MOVE —<br>
+          THEN DESIGN WHAT THEY REMEMBER.
+        </p>
+      </div>
+
+      <!-- EDIT: 관심 분야 키워드 -->
+      <ul class="hero__keys reveal">
+        <li>VMD</li>
+        <li>SPACE IDENTITY</li>
+        <li>SPATIAL DESIGN</li>
+      </ul>
+
+      <div class="hero__scroll mono" aria-hidden="true">
+        <span>SCROLL</span>
+        <span class="hero__arrow">↓</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 02 ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">02</span>
+        <h2 class="sec-title">ABOUT</h2>
+        <span class="sec-kr">소개</span>
+      </div>
+
+      <div class="about">
+        <!-- EDIT: 자기소개 문장 -->
+        <div class="about__text reveal">
+          <p class="about__lead">
+            공간을 &ldquo;사람이 지나가는 경로&rdquo;로 먼저 봅니다.
+          </p>
+          <p>
+            VMD에서 출발해 공간 아이덴티티와 인터랙티브 요소까지, 인상이 만들어지는
+            지점을 설계합니다. 아직 배우는 중이고, 그래서 매번 프로토타입으로 확인합니다.
+          </p>
+          <p>
+            좋아하는 질문은 하나입니다. &ldquo;이 공간을 나간 사람이 무엇을 기억할까.&rdquo;
+          </p>
+        </div>
+
+        <!-- EDIT: 키워드 태그 -->
+        <ul class="about__keys reveal">
+          <li>공간연출</li>
+          <li>리테일</li>
+          <li>동선 설계</li>
+          <li>브랜드 경험</li>
+          <li>프로토타이핑</li>
+          <li>미디어 파사드</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 03 FOCUS ============ -->
+  <section id="focus" class="section">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">03</span>
+        <h2 class="sec-title">FOCUS</h2>
+        <span class="sec-kr">관심 분야</span>
+      </div>
+
+      <div class="focus">
+
+        <article class="focus__card reveal">
+          <span class="focus__code mono">F-01</span>
+          <h3 class="focus__title">VMD</h3>
+          <p class="focus__desc">물건이 놓이는 방식이 이야기를 만든다</p>
+          <span class="focus__line" aria-hidden="true"></span>
+          <p class="focus__note">진열, 동선, 시선의 높이를 조정해 매장 안에서 일어나는 서사를 설계합니다.</p>
+        </article>
+
+        <article class="focus__card reveal">
+          <span class="focus__code mono">F-02</span>
+          <h3 class="focus__title">SPACE<br>IDENTITY</h3>
+          <p class="focus__desc">브랜드의 태도를 벽·빛·동선으로 번역한다</p>
+          <span class="focus__line" aria-hidden="true"></span>
+          <p class="focus__note">로고가 아니라 공간의 규칙으로 브랜드를 설명하는 방법을 공부합니다.</p>
+        </article>
+
+        <article class="focus__card reveal">
+          <span class="focus__code mono">F-03</span>
+          <h3 class="focus__title">SPATIAL<br>DESIGN</h3>
+          <p class="focus__desc">머무는 시간의 길이를 설계한다</p>
+          <span class="focus__line" aria-hidden="true"></span>
+          <p class="focus__note">재료, 빛, 간격으로 사람의 속도를 바꾸는 일에 관심이 있습니다.</p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 04 PROJECTS ============ -->
+  <section id="projects" class="section">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">04</span>
+        <h2 class="sec-title">SELECTED<br>PROJECTS</h2>
+        <span class="sec-kr">작업</span>
+      </div>
+
+      <p class="sec-note mono reveal">03 PROJECTS · 2025—2026</p>
+
+      <div class="projects">
+
+        <!-- EDIT: 프로젝트 1 -->
+        <article class="project reveal">
+          <div class="project__media ph">
+            <span class="project__num mono">P-01</span>
+            <span class="project__ph mono">IMAGE SLOT · 16:9</span>
+          </div>
+          <div class="project__body">
+            <div class="project__row">
+              <h3 class="project__title">Retail Flow Study</h3>
+              <span class="mono">VMD / 2025</span>
+            </div>
+            <p class="project__desc">매장 동선과 시선 유도 실험. 입구에서 계산대까지 세 가지 경로를 비교했습니다.</p>
+            <ul class="project__tags">
+              <li>Figma</li><li>SketchUp</li><li>현장 관찰</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- EDIT: 프로젝트 2 -->
+        <article class="project reveal">
+          <div class="project__media ph">
+            <span class="project__num mono">P-02</span>
+            <span class="project__ph mono">IMAGE SLOT · 16:9</span>
+          </div>
+          <div class="project__body">
+            <div class="project__row">
+              <h3 class="project__title">Space Identity Kit</h3>
+              <span class="mono">SI / 2025</span>
+            </div>
+            <p class="project__desc">소규모 브랜드를 위한 공간 가이드라인. 재료·조명·사인 규칙을 한 장으로 정리했습니다.</p>
+            <ul class="project__tags">
+              <li>Illustrator</li><li>Rhino</li><li>Enscape</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- EDIT: 프로젝트 3 -->
+        <article class="project reveal">
+          <div class="project__media ph">
+            <span class="project__num mono">P-03</span>
+            <span class="project__ph mono">IMAGE SLOT · 16:9</span>
+          </div>
+          <div class="project__body">
+            <div class="project__row">
+              <h3 class="project__title">Responsive Surface</h3>
+              <span class="mono">SPACE × INTERACTION / 2026</span>
+            </div>
+            <p class="project__desc">센서 기반 미디어월 프로토타입. 지나가는 사람의 속도에 반응하는 표면을 만들었습니다.</p>
+            <ul class="project__tags">
+              <li>Arduino</li><li>TouchDesigner</li><li>p5.js</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 05 PROCESS ============ -->
+  <section id="process" class="section">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">05</span>
+        <h2 class="sec-title">PROCESS</h2>
+        <span class="sec-kr">작업 방식</span>
+      </div>
+
+      <ol class="process">
+
+        <li class="process__step reveal">
+          <span class="process__num mono">01</span>
+          <h3 class="process__name">RESEARCH</h3>
+          <p>동선과 시선을 먼저 기록합니다. 사진, 도면, 관찰 노트.</p>
+        </li>
+
+        <li class="process__step reveal">
+          <span class="process__num mono">02</span>
+          <h3 class="process__name">CONCEPT</h3>
+          <p>기록에서 한 문장을 뽑습니다. 그 문장이 공간의 규칙이 됩니다.</p>
+        </li>
+
+        <li class="process__step reveal">
+          <span class="process__num mono">03</span>
+          <h3 class="process__name">SPATIALIZE</h3>
+          <p>재료, 빛, 높이, 간격으로 문장을 번역합니다.</p>
+        </li>
+
+        <li class="process__step reveal">
+          <span class="process__num mono">04</span>
+          <h3 class="process__name">PROTOTYPE</h3>
+          <p>스케일 모델이나 인터랙션으로 먼저 확인합니다.</p>
+        </li>
+
+      </ol>
+
+    </div>
+  </section>
+
+  <!-- ============ 06 SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">06</span>
+        <h2 class="sec-title">SKILLS<br>&amp; TOOLS</h2>
+        <span class="sec-kr">도구</span>
+      </div>
+
+      <!-- EDIT: 사용하는 툴 -->
+      <dl class="skills">
+
+        <div class="skills__row reveal">
+          <dt class="mono">2D</dt>
+          <dd>
+            <ul><li>Figma</li><li>Illustrator</li><li>Photoshop</li><li>InDesign</li></ul>
+          </dd>
+        </div>
+
+        <div class="skills__row reveal">
+          <dt class="mono">3D</dt>
+          <dd>
+            <ul><li>Rhino</li><li>SketchUp</li><li>Blender</li><li>Cinema 4D</li></ul>
+          </dd>
+        </div>
+
+        <div class="skills__row reveal">
+          <dt class="mono">SPACE</dt>
+          <dd>
+            <ul><li>AutoCAD</li><li>Enscape</li><li>Twinmotion</li><li>스케일 모델</li></ul>
+          </dd>
+        </div>
+
+        <div class="skills__row reveal">
+          <dt class="mono">INTERACTION</dt>
+          <dd>
+            <ul><li>Arduino</li><li>TouchDesigner</li><li>p5.js</li><li>HTML / CSS</li></ul>
+          </dd>
+        </div>
+
+      </dl>
+
+    </div>
+  </section>
+
+  <!-- ============ 07 ARCHIVE ============ -->
+  <section id="archive" class="section">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">07</span>
+        <h2 class="sec-title">ARCHIVE</h2>
+        <span class="sec-kr">기록</span>
+      </div>
+
+      <p class="sec-note mono reveal">SKETCH · RENDER · MOODBOARD · TEST</p>
+
+      <div class="archive">
+
+        <div class="archive__item ph reveal">
+          <span class="mono">A-01</span>
+          <span class="archive__label mono">SKETCH</span>
+        </div>
+
+        <div class="archive__item ph reveal">
+          <span class="mono">A-02</span>
+          <span class="archive__label mono">RENDER</span>
+        </div>
+
+        <div class="archive__item ph reveal">
+          <span class="mono">A-03</span>
+          <span class="archive__label mono">MOODBOARD</span>
+        </div>
+
+        <div class="archive__item ph reveal">
+          <span class="mono">A-04</span>
+          <span class="archive__label mono">PLAN</span>
+        </div>
+
+        <div class="archive__item ph reveal">
+          <span class="mono">A-05</span>
+          <span class="archive__label mono">MODEL</span>
+        </div>
+
+        <div class="archive__item ph reveal">
+          <span class="mono">A-06</span>
+          <span class="archive__label mono">TEST</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 08 CONTACT ============ -->
+  <section id="contact" class="section section--contact">
+    <div class="wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-idx">08</span>
+        <h2 class="sec-title">CONTACT</h2>
+        <span class="sec-kr">연락</span>
+      </div>
+
+      <p class="contact__lead reveal">
+        다음 공간을 같이 고민해볼 사람을 찾고 있습니다.
+      </p>
+
+      <!-- EDIT: 이메일 주소 -->
+      <a class="contact__mail reveal" href="mailto:hello@example.com">hello@example.com</a>
+
+      <!-- EDIT: 링크 주소 -->
+      <ul class="contact__links reveal">
+        <li><a href="#" target="_blank" rel="noopener">INSTAGRAM ↗</a></li>
+        <li><a href="#" target="_blank" rel="noopener">NOTION ↗</a></li>
+        <li><a href="#" target="_blank" rel="noopener">GITHUB ↗</a></li>
+      </ul>
+
+      <footer class="footer">
+        <span class="mono">© <span id="year">2026</span> SON JIHYUN</span>
+        <span class="mono">DESIGN &amp; TECHNOLOGY · SEOUL</span>
+        <a class="mono footer__top" href="#hero">BACK TO TOP ↑</a>
+      </footer>
+
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
